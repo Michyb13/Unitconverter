@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="converter.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,400;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="container">
+        <div id="top-half">
+            <label for="number-input">Input Number For Conversion</label><br>
+            <input id="number-input" type="number" placeholder="0" min="1">
+            <button id="convert-btn">CONVERT</button>
+        </div>
+        <div id="bottom-half">
+            <div>
+                <p class="title">Length (Meter/Feet)</p>
+                <p id="length"></p>
+            </div>
+            <div>
+                <p class="title">Area (Square Meters/Square Foot)</p>
+                <p id="area"></p>
+            </div>
+            <div>
+                <p class="title">Mass (Kilograms/Pounds)</p>
+                <p id="mass"></p>
+            </div>
+            <div>
+                <p class="title">Volume (Liters/Gallons)</p>
+                <p id="volume"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="converter.js"></script>
+</body>
+</html>

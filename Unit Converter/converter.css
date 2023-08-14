@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    color: black;
+
+}
+
+
+#container{
+    background: silver;
+    color: white;
+    margin: 40px auto;
+    max-width: 600px;
+    border: 3px solid black;
+}
+
+#top-half{
+    background: linear-gradient(darkblue,lightblue);
+    padding: 20px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+label{
+    margin-bottom: 10px;
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    
+}
+
+#number-input{
+    margin: 30px 10px 0 10px;
+    border: none;
+    background: none;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    outline: none;
+    
+}
+
+#bottom-half{
+    background: silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+p{
+    color: black;
+}
+
+.title{
+    margin-top: 20px;
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+button{
+    width: 40%;
+    margin: 40px auto;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid silver;
+    font-family: 'Noto Sans', sans-serif;
+    transition: all 0.3s ease-in;
+
+}
+
+
+button:hover{
+    background: transparent;
+    text-shadow: 0px 0px 15px black;
+    color: white;
+    transform: translateY(-5px);
+
+}
+
+#number-input::placeholder{
+    color: black;
+    opacity: 0.2;
+}
